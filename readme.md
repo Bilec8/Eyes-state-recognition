@@ -34,21 +34,6 @@ source venv/bin/activate
 pip install requirements.txt
 ```
 
-├── haarcascades/               # Folder containing Haar Cascade files
-│   ├── haarcascade_frontalface_alt2.xml
-│   ├── haarcascade_frontalface_alt.xml
-│   ├── haarcascade_profileface.xml
-│   ├── haarcascade_smile.xml
-│   └── haarcascade_mcs_mouth.xml
-├── eye_classifier/             # Folder containing the eye detection classifier
-│   └── eye_cascade_fusek.xml
-├── source/                     # Source directory for video and ground truth file
-│   ├── video.avi               # Input video file
-│   └── eye_state.txt           # Ground truth file
-├── main.py                     # Main Python script
-├── download_classifiers.py     # Download script
-└── README.md                   # Project documentation
-
 ## 📥 Installation
 
 ### 1️⃣ Clone the repository
